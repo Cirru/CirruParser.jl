@@ -17,6 +17,7 @@ for name in testCases
     println(formated)
     println("")
   end
+  @test formated == excepted
 end
 
 println()
